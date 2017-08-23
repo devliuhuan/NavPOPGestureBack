@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  TestPopGestureSolution1
+//  TestPopGestureSolution6
 //
-//  Created by liuhuan on 2017/8/22.
+//  Created by liuhuan on 2017/8/23.
 //  Copyright © 2017年 zqq. All rights reserved.
 //
 
@@ -22,7 +22,7 @@
     self.window.rootViewController = mianVC;
     [self.window makeKeyAndVisible];
     return YES;
-    
+
 }
 
 
