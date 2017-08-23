@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CellModel.h"
 @interface LHBaseViewController : UIViewController
 
 @end

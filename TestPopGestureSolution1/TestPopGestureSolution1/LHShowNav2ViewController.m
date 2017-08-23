@@ -8,7 +8,7 @@
 
 #import "LHShowNav2ViewController.h"
 
-@interface LHShowNav2ViewController ()
+@interface LHShowNav2ViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView * tableView;
 @end
 
@@ -95,6 +95,7 @@
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
         _tableView.dataSource = self;
         _tableView.delegate = self;
+        _tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     }
     return _tableView;

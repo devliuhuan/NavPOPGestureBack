@@ -28,6 +28,11 @@
 		DB4F64F41F4C310F004BF51F /* LHShowNav2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F64F31F4C310F004BF51F /* LHShowNav2ViewController.m */; };
 		DB4F64FA1F4D115D004BF51F /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F64F71F4D115D004BF51F /* NavigationInteractiveTransition.m */; };
 		DB4F64FB1F4D115D004BF51F /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F64F91F4D115D004BF51F /* PopAnimation.m */; };
+		DB4F65051F4D1E5D004BF51F /* TZCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F64FE1F4D1E5D004BF51F /* TZCollectionViewController.m */; };
+		DB4F65061F4D1E5D004BF51F /* TZMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65001F4D1E5D004BF51F /* TZMapViewController.m */; };
+		DB4F65071F4D1E5D004BF51F /* TZPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65021F4D1E5D004BF51F /* TZPageViewController.m */; };
+		DB4F65081F4D1E5D004BF51F /* TZScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65041F4D1E5D004BF51F /* TZScrollViewController.m */; };
+		DB4F650B1F4D2124004BF51F /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F650A1F4D2124004BF51F /* CellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +95,16 @@
 		DB4F64F71F4D115D004BF51F /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
 		DB4F64F81F4D115D004BF51F /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
 		DB4F64F91F4D115D004BF51F /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		DB4F64FD1F4D1E5D004BF51F /* TZCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZCollectionViewController.h; sourceTree = "<group>"; };
+		DB4F64FE1F4D1E5D004BF51F /* TZCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZCollectionViewController.m; sourceTree = "<group>"; };
+		DB4F64FF1F4D1E5D004BF51F /* TZMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMapViewController.h; sourceTree = "<group>"; };
+		DB4F65001F4D1E5D004BF51F /* TZMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMapViewController.m; sourceTree = "<group>"; };
+		DB4F65011F4D1E5D004BF51F /* TZPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPageViewController.h; sourceTree = "<group>"; };
+		DB4F65021F4D1E5D004BF51F /* TZPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPageViewController.m; sourceTree = "<group>"; };
+		DB4F65031F4D1E5D004BF51F /* TZScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZScrollViewController.h; sourceTree = "<group>"; };
+		DB4F65041F4D1E5D004BF51F /* TZScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZScrollViewController.m; sourceTree = "<group>"; };
+		DB4F65091F4D2124004BF51F /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		DB4F650A1F4D2124004BF51F /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +155,7 @@
 		DB4F649A1F4C2C0C004BF51F /* TestPopGestureSolution1 */ = {
 			isa = PBXGroup;
 			children = (
+				DB4F64FC1F4D1E4D004BF51F /* scrollView */,
 				DB4F64F51F4D1118004BF51F /* Libs */,
 				DB4F64E81F4C30D1004BF51F /* HideNav */,
 				DB4F64D11F4C2C68004BF51F /* Other */,
@@ -215,6 +231,8 @@
 				DB4F64E21F4C2FC2004BF51F /* LHMineViewController.m */,
 				DB4F64E41F4C2FCD004BF51F /* LHBaseViewController.h */,
 				DB4F64E51F4C2FCD004BF51F /* LHBaseViewController.m */,
+				DB4F65091F4D2124004BF51F /* CellModel.h */,
+				DB4F650A1F4D2124004BF51F /* CellModel.m */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -243,6 +261,21 @@
 				DB4F64F91F4D115D004BF51F /* PopAnimation.m */,
 			);
 			name = Libs;
+			sourceTree = "<group>";
+		};
+		DB4F64FC1F4D1E4D004BF51F /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F64FD1F4D1E5D004BF51F /* TZCollectionViewController.h */,
+				DB4F64FE1F4D1E5D004BF51F /* TZCollectionViewController.m */,
+				DB4F64FF1F4D1E5D004BF51F /* TZMapViewController.h */,
+				DB4F65001F4D1E5D004BF51F /* TZMapViewController.m */,
+				DB4F65011F4D1E5D004BF51F /* TZPageViewController.h */,
+				DB4F65021F4D1E5D004BF51F /* TZPageViewController.m */,
+				DB4F65031F4D1E5D004BF51F /* TZScrollViewController.h */,
+				DB4F65041F4D1E5D004BF51F /* TZScrollViewController.m */,
+			);
+			name = scrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,18 +415,23 @@
 				DB4F64EB1F4C30E7004BF51F /* LHHideNav1ViewController.m in Sources */,
 				DB4F64A31F4C2C0C004BF51F /* ViewController.m in Sources */,
 				DB4F64FA1F4D115D004BF51F /* NavigationInteractiveTransition.m in Sources */,
+				DB4F65071F4D1E5D004BF51F /* TZPageViewController.m in Sources */,
 				DB4F64DA1F4C2DD9004BF51F /* LHNavigationController.m in Sources */,
+				DB4F65051F4D1E5D004BF51F /* TZCollectionViewController.m in Sources */,
 				DB4F64F11F4C3104004BF51F /* LHShowNav1ViewController.m in Sources */,
 				DB4F64E31F4C2FC2004BF51F /* LHMineViewController.m in Sources */,
 				DB4F64E61F4C2FCD004BF51F /* LHBaseViewController.m in Sources */,
 				DB4F64FB1F4D115D004BF51F /* PopAnimation.m in Sources */,
+				DB4F650B1F4D2124004BF51F /* CellModel.m in Sources */,
 				DB4F64DD1F4C2F9E004BF51F /* LHFriendsViewController.m in Sources */,
+				DB4F65061F4D1E5D004BF51F /* TZMapViewController.m in Sources */,
 				DB4F64D41F4C2D23004BF51F /* LHHomeViewController.m in Sources */,
 				DB4F64A01F4C2C0C004BF51F /* AppDelegate.m in Sources */,
 				DB4F649D1F4C2C0C004BF51F /* main.m in Sources */,
 				DB4F64EE1F4C30F9004BF51F /* LHHideNav2ViewController.m in Sources */,
 				DB4F64E01F4C2FB2004BF51F /* LHClassifyViewController.m in Sources */,
 				DB4F64D71F4C2D61004BF51F /* LHMainViewController.m in Sources */,
+				DB4F65081F4D1E5D004BF51F /* TZScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
