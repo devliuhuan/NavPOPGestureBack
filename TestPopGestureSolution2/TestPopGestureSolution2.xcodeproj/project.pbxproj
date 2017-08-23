@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4F651A1F4D2917004BF51F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65191F4D2917004BF51F /* main.m */; };
+		DB4F651D1F4D2917004BF51F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F651C1F4D2917004BF51F /* AppDelegate.m */; };
+		DB4F65201F4D2917004BF51F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F651F1F4D2917004BF51F /* ViewController.m */; };
+		DB4F65231F4D2917004BF51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4F65211F4D2917004BF51F /* Main.storyboard */; };
+		DB4F65251F4D2917004BF51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4F65241F4D2917004BF51F /* Assets.xcassets */; };
+		DB4F65281F4D2917004BF51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4F65261F4D2917004BF51F /* LaunchScreen.storyboard */; };
+		DB4F65331F4D2917004BF51F /* TestPopGestureSolution2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65321F4D2917004BF51F /* TestPopGestureSolution2Tests.m */; };
+		DB4F653E1F4D2917004BF51F /* TestPopGestureSolution2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F653D1F4D2917004BF51F /* TestPopGestureSolution2UITests.m */; };
+		DB4F655D1F4D29D1004BF51F /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65521F4D29D1004BF51F /* CellModel.m */; };
+		DB4F655E1F4D29D1004BF51F /* LHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65541F4D29D1004BF51F /* LHBaseViewController.m */; };
+		DB4F655F1F4D29D1004BF51F /* LHClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65561F4D29D1004BF51F /* LHClassifyViewController.m */; };
+		DB4F65601F4D29D1004BF51F /* LHFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65581F4D29D1004BF51F /* LHFriendsViewController.m */; };
+		DB4F65611F4D29D1004BF51F /* LHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F655A1F4D29D1004BF51F /* LHHomeViewController.m */; };
+		DB4F65621F4D29D1004BF51F /* LHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F655C1F4D29D1004BF51F /* LHMineViewController.m */; };
+		DB4F65651F4D2A02004BF51F /* LHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65641F4D2A02004BF51F /* LHNavigationController.m */; };
+		DB4F65681F4D2A14004BF51F /* LHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65671F4D2A14004BF51F /* LHMainViewController.m */; };
+		DB4F65711F4D2A2D004BF51F /* LHHideNav1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F656A1F4D2A2D004BF51F /* LHHideNav1ViewController.m */; };
+		DB4F65721F4D2A2D004BF51F /* LHHideNav2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F656C1F4D2A2D004BF51F /* LHHideNav2ViewController.m */; };
+		DB4F65731F4D2A2D004BF51F /* LHShowNav1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F656E1F4D2A2D004BF51F /* LHShowNav1ViewController.m */; };
+		DB4F65741F4D2A2D004BF51F /* LHShowNav2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65701F4D2A2D004BF51F /* LHShowNav2ViewController.m */; };
+		DB4F657D1F4D2A44004BF51F /* TZCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65761F4D2A44004BF51F /* TZCollectionViewController.m */; };
+		DB4F657E1F4D2A44004BF51F /* TZMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65781F4D2A44004BF51F /* TZMapViewController.m */; };
+		DB4F657F1F4D2A44004BF51F /* TZPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F657A1F4D2A44004BF51F /* TZPageViewController.m */; };
+		DB4F65801F4D2A44004BF51F /* TZScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F657C1F4D2A44004BF51F /* TZScrollViewController.m */; };
+		DB4F65841F4D2A98004BF51F /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F65831F4D2A98004BF51F /* UINavigationController+FDFullscreenPopGesture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB4F652F1F4D2917004BF51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4F650D1F4D2916004BF51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4F65141F4D2917004BF51F;
+			remoteInfo = TestPopGestureSolution2;
+		};
+		DB4F653A1F4D2917004BF51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4F650D1F4D2916004BF51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4F65141F4D2917004BF51F;
+			remoteInfo = TestPopGestureSolution2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB4F65151F4D2917004BF51F /* TestPopGestureSolution2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPopGestureSolution2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4F65191F4D2917004BF51F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB4F651B1F4D2917004BF51F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB4F651C1F4D2917004BF51F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB4F651E1F4D2917004BF51F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB4F651F1F4D2917004BF51F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB4F65221F4D2917004BF51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB4F65241F4D2917004BF51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4F65271F4D2917004BF51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB4F65291F4D2917004BF51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4F652E1F4D2917004BF51F /* TestPopGestureSolution2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPopGestureSolution2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4F65321F4D2917004BF51F /* TestPopGestureSolution2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPopGestureSolution2Tests.m; sourceTree = "<group>"; };
+		DB4F65341F4D2917004BF51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4F65391F4D2917004BF51F /* TestPopGestureSolution2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPopGestureSolution2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4F653D1F4D2917004BF51F /* TestPopGestureSolution2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPopGestureSolution2UITests.m; sourceTree = "<group>"; };
+		DB4F653F1F4D2917004BF51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4F65511F4D29D1004BF51F /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		DB4F65521F4D29D1004BF51F /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		DB4F65531F4D29D1004BF51F /* LHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBaseViewController.h; sourceTree = "<group>"; };
+		DB4F65541F4D29D1004BF51F /* LHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBaseViewController.m; sourceTree = "<group>"; };
+		DB4F65551F4D29D1004BF51F /* LHClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHClassifyViewController.h; sourceTree = "<group>"; };
+		DB4F65561F4D29D1004BF51F /* LHClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHClassifyViewController.m; sourceTree = "<group>"; };
+		DB4F65571F4D29D1004BF51F /* LHFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHFriendsViewController.h; sourceTree = "<group>"; };
+		DB4F65581F4D29D1004BF51F /* LHFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHFriendsViewController.m; sourceTree = "<group>"; };
+		DB4F65591F4D29D1004BF51F /* LHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHHomeViewController.h; sourceTree = "<group>"; };
+		DB4F655A1F4D29D1004BF51F /* LHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHHomeViewController.m; sourceTree = "<group>"; };
+		DB4F655B1F4D29D1004BF51F /* LHMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHMineViewController.h; sourceTree = "<group>"; };
+		DB4F655C1F4D29D1004BF51F /* LHMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHMineViewController.m; sourceTree = "<group>"; };
+		DB4F65631F4D2A02004BF51F /* LHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHNavigationController.h; sourceTree = "<group>"; };
+		DB4F65641F4D2A02004BF51F /* LHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHNavigationController.m; sourceTree = "<group>"; };
+		DB4F65661F4D2A14004BF51F /* LHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHMainViewController.h; sourceTree = "<group>"; };
+		DB4F65671F4D2A14004BF51F /* LHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHMainViewController.m; sourceTree = "<group>"; };
+		DB4F65691F4D2A2D004BF51F /* LHHideNav1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHHideNav1ViewController.h; sourceTree = "<group>"; };
+		DB4F656A1F4D2A2D004BF51F /* LHHideNav1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHHideNav1ViewController.m; sourceTree = "<group>"; };
+		DB4F656B1F4D2A2D004BF51F /* LHHideNav2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHHideNav2ViewController.h; sourceTree = "<group>"; };
+		DB4F656C1F4D2A2D004BF51F /* LHHideNav2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHHideNav2ViewController.m; sourceTree = "<group>"; };
+		DB4F656D1F4D2A2D004BF51F /* LHShowNav1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHShowNav1ViewController.h; sourceTree = "<group>"; };
+		DB4F656E1F4D2A2D004BF51F /* LHShowNav1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHShowNav1ViewController.m; sourceTree = "<group>"; };
+		DB4F656F1F4D2A2D004BF51F /* LHShowNav2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHShowNav2ViewController.h; sourceTree = "<group>"; };
+		DB4F65701F4D2A2D004BF51F /* LHShowNav2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHShowNav2ViewController.m; sourceTree = "<group>"; };
+		DB4F65751F4D2A44004BF51F /* TZCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZCollectionViewController.h; sourceTree = "<group>"; };
+		DB4F65761F4D2A44004BF51F /* TZCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZCollectionViewController.m; sourceTree = "<group>"; };
+		DB4F65771F4D2A44004BF51F /* TZMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMapViewController.h; sourceTree = "<group>"; };
+		DB4F65781F4D2A44004BF51F /* TZMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMapViewController.m; sourceTree = "<group>"; };
+		DB4F65791F4D2A44004BF51F /* TZPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPageViewController.h; sourceTree = "<group>"; };
+		DB4F657A1F4D2A44004BF51F /* TZPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPageViewController.m; sourceTree = "<group>"; };
+		DB4F657B1F4D2A44004BF51F /* TZScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZScrollViewController.h; sourceTree = "<group>"; };
+		DB4F657C1F4D2A44004BF51F /* TZScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZScrollViewController.m; sourceTree = "<group>"; };
+		DB4F65821F4D2A98004BF51F /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		DB4F65831F4D2A98004BF51F /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4F65121F4D2917004BF51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F652B1F4D2917004BF51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F65361F4D2917004BF51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4F650C1F4D2916004BF51F = {
+			isa = PBXGroup;
+			children = (
+				DB4F65171F4D2917004BF51F /* TestPopGestureSolution2 */,
+				DB4F65311F4D2917004BF51F /* TestPopGestureSolution2Tests */,
+				DB4F653C1F4D2917004BF51F /* TestPopGestureSolution2UITests */,
+				DB4F65161F4D2917004BF51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4F65161F4D2917004BF51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65151F4D2917004BF51F /* TestPopGestureSolution2.app */,
+				DB4F652E1F4D2917004BF51F /* TestPopGestureSolution2Tests.xctest */,
+				DB4F65391F4D2917004BF51F /* TestPopGestureSolution2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4F65171F4D2917004BF51F /* TestPopGestureSolution2 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65501F4D29AF004BF51F /* Other */,
+				DB4F654F1F4D299F004BF51F /* Nav */,
+				DB4F654E1F4D298C004BF51F /* Tab */,
+				DB4F654D1F4D2971004BF51F /* HideNav */,
+				DB4F654C1F4D294D004BF51F /* Libs */,
+				DB4F654B1F4D293C004BF51F /* scrollView */,
+				DB4F651B1F4D2917004BF51F /* AppDelegate.h */,
+				DB4F651C1F4D2917004BF51F /* AppDelegate.m */,
+				DB4F651E1F4D2917004BF51F /* ViewController.h */,
+				DB4F651F1F4D2917004BF51F /* ViewController.m */,
+				DB4F65211F4D2917004BF51F /* Main.storyboard */,
+				DB4F65241F4D2917004BF51F /* Assets.xcassets */,
+				DB4F65261F4D2917004BF51F /* LaunchScreen.storyboard */,
+				DB4F65291F4D2917004BF51F /* Info.plist */,
+				DB4F65181F4D2917004BF51F /* Supporting Files */,
+			);
+			path = TestPopGestureSolution2;
+			sourceTree = "<group>";
+		};
+		DB4F65181F4D2917004BF51F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65191F4D2917004BF51F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB4F65311F4D2917004BF51F /* TestPopGestureSolution2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65321F4D2917004BF51F /* TestPopGestureSolution2Tests.m */,
+				DB4F65341F4D2917004BF51F /* Info.plist */,
+			);
+			path = TestPopGestureSolution2Tests;
+			sourceTree = "<group>";
+		};
+		DB4F653C1F4D2917004BF51F /* TestPopGestureSolution2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F653D1F4D2917004BF51F /* TestPopGestureSolution2UITests.m */,
+				DB4F653F1F4D2917004BF51F /* Info.plist */,
+			);
+			path = TestPopGestureSolution2UITests;
+			sourceTree = "<group>";
+		};
+		DB4F654B1F4D293C004BF51F /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65751F4D2A44004BF51F /* TZCollectionViewController.h */,
+				DB4F65761F4D2A44004BF51F /* TZCollectionViewController.m */,
+				DB4F65771F4D2A44004BF51F /* TZMapViewController.h */,
+				DB4F65781F4D2A44004BF51F /* TZMapViewController.m */,
+				DB4F65791F4D2A44004BF51F /* TZPageViewController.h */,
+				DB4F657A1F4D2A44004BF51F /* TZPageViewController.m */,
+				DB4F657B1F4D2A44004BF51F /* TZScrollViewController.h */,
+				DB4F657C1F4D2A44004BF51F /* TZScrollViewController.m */,
+			);
+			path = scrollView;
+			sourceTree = "<group>";
+		};
+		DB4F654C1F4D294D004BF51F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65811F4D2A82004BF51F /* FDFullscreenPopGesture */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		DB4F654D1F4D2971004BF51F /* HideNav */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65691F4D2A2D004BF51F /* LHHideNav1ViewController.h */,
+				DB4F656A1F4D2A2D004BF51F /* LHHideNav1ViewController.m */,
+				DB4F656B1F4D2A2D004BF51F /* LHHideNav2ViewController.h */,
+				DB4F656C1F4D2A2D004BF51F /* LHHideNav2ViewController.m */,
+				DB4F656D1F4D2A2D004BF51F /* LHShowNav1ViewController.h */,
+				DB4F656E1F4D2A2D004BF51F /* LHShowNav1ViewController.m */,
+				DB4F656F1F4D2A2D004BF51F /* LHShowNav2ViewController.h */,
+				DB4F65701F4D2A2D004BF51F /* LHShowNav2ViewController.m */,
+			);
+			path = HideNav;
+			sourceTree = "<group>";
+		};
+		DB4F654E1F4D298C004BF51F /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65661F4D2A14004BF51F /* LHMainViewController.h */,
+				DB4F65671F4D2A14004BF51F /* LHMainViewController.m */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		DB4F654F1F4D299F004BF51F /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65631F4D2A02004BF51F /* LHNavigationController.h */,
+				DB4F65641F4D2A02004BF51F /* LHNavigationController.m */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		DB4F65501F4D29AF004BF51F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65511F4D29D1004BF51F /* CellModel.h */,
+				DB4F65521F4D29D1004BF51F /* CellModel.m */,
+				DB4F65531F4D29D1004BF51F /* LHBaseViewController.h */,
+				DB4F65541F4D29D1004BF51F /* LHBaseViewController.m */,
+				DB4F65591F4D29D1004BF51F /* LHHomeViewController.h */,
+				DB4F655A1F4D29D1004BF51F /* LHHomeViewController.m */,
+				DB4F65571F4D29D1004BF51F /* LHFriendsViewController.h */,
+				DB4F65581F4D29D1004BF51F /* LHFriendsViewController.m */,
+				DB4F65551F4D29D1004BF51F /* LHClassifyViewController.h */,
+				DB4F65561F4D29D1004BF51F /* LHClassifyViewController.m */,
+				DB4F655B1F4D29D1004BF51F /* LHMineViewController.h */,
+				DB4F655C1F4D29D1004BF51F /* LHMineViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DB4F65811F4D2A82004BF51F /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F65821F4D2A98004BF51F /* UINavigationController+FDFullscreenPopGesture.h */,
+				DB4F65831F4D2A98004BF51F /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4F65141F4D2917004BF51F /* TestPopGestureSolution2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4F65421F4D2917004BF51F /* Build configuration list for PBXNativeTarget "TestPopGestureSolution2" */;
+			buildPhases = (
+				DB4F65111F4D2917004BF51F /* Sources */,
+				DB4F65121F4D2917004BF51F /* Frameworks */,
+				DB4F65131F4D2917004BF51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPopGestureSolution2;
+			productName = TestPopGestureSolution2;
+			productReference = DB4F65151F4D2917004BF51F /* TestPopGestureSolution2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4F652D1F4D2917004BF51F /* TestPopGestureSolution2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4F65451F4D2917004BF51F /* Build configuration list for PBXNativeTarget "TestPopGestureSolution2Tests" */;
+			buildPhases = (
+				DB4F652A1F4D2917004BF51F /* Sources */,
+				DB4F652B1F4D2917004BF51F /* Frameworks */,
+				DB4F652C1F4D2917004BF51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4F65301F4D2917004BF51F /* PBXTargetDependency */,
+			);
+			name = TestPopGestureSolution2Tests;
+			productName = TestPopGestureSolution2Tests;
+			productReference = DB4F652E1F4D2917004BF51F /* TestPopGestureSolution2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB4F65381F4D2917004BF51F /* TestPopGestureSolution2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4F65481F4D2917004BF51F /* Build configuration list for PBXNativeTarget "TestPopGestureSolution2UITests" */;
+			buildPhases = (
+				DB4F65351F4D2917004BF51F /* Sources */,
+				DB4F65361F4D2917004BF51F /* Frameworks */,
+				DB4F65371F4D2917004BF51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4F653B1F4D2917004BF51F /* PBXTargetDependency */,
+			);
+			name = TestPopGestureSolution2UITests;
+			productName = TestPopGestureSolution2UITests;
+			productReference = DB4F65391F4D2917004BF51F /* TestPopGestureSolution2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4F650D1F4D2916004BF51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zqq;
+				TargetAttributes = {
+					DB4F65141F4D2917004BF51F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB4F652D1F4D2917004BF51F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB4F65141F4D2917004BF51F;
+					};
+					DB4F65381F4D2917004BF51F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB4F65141F4D2917004BF51F;
+					};
+				};
+			};
+			buildConfigurationList = DB4F65101F4D2916004BF51F /* Build configuration list for PBXProject "TestPopGestureSolution2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4F650C1F4D2916004BF51F;
+			productRefGroup = DB4F65161F4D2917004BF51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4F65141F4D2917004BF51F /* TestPopGestureSolution2 */,
+				DB4F652D1F4D2917004BF51F /* TestPopGestureSolution2Tests */,
+				DB4F65381F4D2917004BF51F /* TestPopGestureSolution2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4F65131F4D2917004BF51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4F65281F4D2917004BF51F /* LaunchScreen.storyboard in Resources */,
+				DB4F65251F4D2917004BF51F /* Assets.xcassets in Resources */,
+				DB4F65231F4D2917004BF51F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F652C1F4D2917004BF51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F65371F4D2917004BF51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4F65111F4D2917004BF51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4F657D1F4D2A44004BF51F /* TZCollectionViewController.m in Sources */,
+				DB4F655F1F4D29D1004BF51F /* LHClassifyViewController.m in Sources */,
+				DB4F65651F4D2A02004BF51F /* LHNavigationController.m in Sources */,
+				DB4F65201F4D2917004BF51F /* ViewController.m in Sources */,
+				DB4F65621F4D29D1004BF51F /* LHMineViewController.m in Sources */,
+				DB4F657F1F4D2A44004BF51F /* TZPageViewController.m in Sources */,
+				DB4F65601F4D29D1004BF51F /* LHFriendsViewController.m in Sources */,
+				DB4F65681F4D2A14004BF51F /* LHMainViewController.m in Sources */,
+				DB4F651D1F4D2917004BF51F /* AppDelegate.m in Sources */,
+				DB4F65801F4D2A44004BF51F /* TZScrollViewController.m in Sources */,
+				DB4F65841F4D2A98004BF51F /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				DB4F65721F4D2A2D004BF51F /* LHHideNav2ViewController.m in Sources */,
+				DB4F651A1F4D2917004BF51F /* main.m in Sources */,
+				DB4F65731F4D2A2D004BF51F /* LHShowNav1ViewController.m in Sources */,
+				DB4F657E1F4D2A44004BF51F /* TZMapViewController.m in Sources */,
+				DB4F65711F4D2A2D004BF51F /* LHHideNav1ViewController.m in Sources */,
+				DB4F65611F4D29D1004BF51F /* LHHomeViewController.m in Sources */,
+				DB4F655E1F4D29D1004BF51F /* LHBaseViewController.m in Sources */,
+				DB4F65741F4D2A2D004BF51F /* LHShowNav2ViewController.m in Sources */,
+				DB4F655D1F4D29D1004BF51F /* CellModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F652A1F4D2917004BF51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4F65331F4D2917004BF51F /* TestPopGestureSolution2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4F65351F4D2917004BF51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4F653E1F4D2917004BF51F /* TestPopGestureSolution2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB4F65301F4D2917004BF51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4F65141F4D2917004BF51F /* TestPopGestureSolution2 */;
+			targetProxy = DB4F652F1F4D2917004BF51F /* PBXContainerItemProxy */;
+		};
+		DB4F653B1F4D2917004BF51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4F65141F4D2917004BF51F /* TestPopGestureSolution2 */;
+			targetProxy = DB4F653A1F4D2917004BF51F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB4F65211F4D2917004BF51F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4F65221F4D2917004BF51F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB4F65261F4D2917004BF51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4F65271F4D2917004BF51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB4F65401F4D2917004BF51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB4F65411F4D2917004BF51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4F65431F4D2917004BF51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPopGestureSolution2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.love.TestPopGestureSolution2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB4F65441F4D2917004BF51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPopGestureSolution2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.love.TestPopGestureSolution2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB4F65461F4D2917004BF51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPopGestureSolution2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.love.TestPopGestureSolution2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPopGestureSolution2.app/TestPopGestureSolution2";
+			};
+			name = Debug;
+		};
+		DB4F65471F4D2917004BF51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPopGestureSolution2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.love.TestPopGestureSolution2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPopGestureSolution2.app/TestPopGestureSolution2";
+			};
+			name = Release;
+		};
+		DB4F65491F4D2917004BF51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPopGestureSolution2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.love.TestPopGestureSolution2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestPopGestureSolution2;
+			};
+			name = Debug;
+		};
+		DB4F654A1F4D2917004BF51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPopGestureSolution2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zqq.love.TestPopGestureSolution2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestPopGestureSolution2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4F65101F4D2916004BF51F /* Build configuration list for PBXProject "TestPopGestureSolution2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4F65401F4D2917004BF51F /* Debug */,
+				DB4F65411F4D2917004BF51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4F65421F4D2917004BF51F /* Build configuration list for PBXNativeTarget "TestPopGestureSolution2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4F65431F4D2917004BF51F /* Debug */,
+				DB4F65441F4D2917004BF51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB4F65451F4D2917004BF51F /* Build configuration list for PBXNativeTarget "TestPopGestureSolution2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4F65461F4D2917004BF51F /* Debug */,
+				DB4F65471F4D2917004BF51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB4F65481F4D2917004BF51F /* Build configuration list for PBXNativeTarget "TestPopGestureSolution2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4F65491F4D2917004BF51F /* Debug */,
+				DB4F654A1F4D2917004BF51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4F650D1F4D2916004BF51F /* Project object */;
+}
