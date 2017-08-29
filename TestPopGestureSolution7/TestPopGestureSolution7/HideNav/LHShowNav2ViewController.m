@@ -1,40 +1,38 @@
 //
-//  LHHideNav2ViewController.m
+//  LHShowNav2ViewController.m
 //  TestPopGestureSolution1
 //
 //  Created by liuhuan on 2017/8/22.
 //  Copyright © 2017年 zqq. All rights reserved.
 //
 
-#import "LHHideNav2ViewController.h"
+#import "LHShowNav2ViewController.h"
 
-
-@interface LHHideNav2ViewController () <UITableViewDataSource,UITableViewDelegate>
+@interface LHShowNav2ViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView * tableView;
 @end
 
-@implementation LHHideNav2ViewController
+@implementation LHShowNav2ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.lh_hidNav = YES;
+    // Do any additional setup after loading the view.
     [self.view addSubview:self.tableView];
+    self.title = @"LHShowNav2ViewController";
 }
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    //[self.navigationController setNavigationBarHidden:YES animated:YES];
+
 }
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    //[self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 #pragma mark - ******** UITableViewDataSource && UITableViewDelegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -96,7 +94,7 @@
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
         _tableView.dataSource = self;
         _tableView.delegate = self;
-        _tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
+        _tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     }
     return _tableView;

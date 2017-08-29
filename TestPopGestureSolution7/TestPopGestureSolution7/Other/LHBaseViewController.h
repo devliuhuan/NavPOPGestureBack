@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CellModel.h"
+#import "UIViewController+LHNavigationGesture.h"
+
 @interface LHBaseViewController : UIViewController
-@property (nonatomic,assign) BOOL lh_hidNav;
 @end

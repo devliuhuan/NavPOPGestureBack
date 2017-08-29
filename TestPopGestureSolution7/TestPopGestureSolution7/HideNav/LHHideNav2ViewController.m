@@ -17,18 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.lh_hidNav = YES;
+    //self.fd_prefersNavigationBarHidden = YES;
+    self.lh_hideNavBar = YES;
+    
     [self.view addSubview:self.tableView];
 }
 - (void)viewWillAppear:(BOOL)animated
 {
+    
     [super viewWillAppear:animated];
-    //[self.navigationController setNavigationBarHidden:YES animated:YES];
+    
 }
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    //[self.navigationController setNavigationBarHidden:NO animated:YES];
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -79,15 +82,7 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
     });
-//    if (indexPath.section == 0) {
-//        LHHideNav1ViewController *vc = [LHHideNav1ViewController new];
-//        vc.hidesBottomBarWhenPushed = YES;
-//        [self.navigationController pushViewController:vc animated:YES];
-//    }else{
-//        LHShowNav1ViewController *vc = [LHShowNav1ViewController new];
-//        vc.hidesBottomBarWhenPushed = YES;
-//        [self.navigationController pushViewController:vc animated:YES];
-//    }
+
 }
 #pragma mark - ******** getter && setter
 - (UITableView *)tableView

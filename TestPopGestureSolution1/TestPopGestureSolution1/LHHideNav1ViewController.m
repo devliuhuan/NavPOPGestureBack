@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.lh_hidNav = YES;
     [self.dataList removeAllObjects];
     [self.dataList addObject:[CellModel title:@"LHHideNav2ViewController" class:@"LHHideNav2ViewController"]];
     [self.dataList addObject:[CellModel title:@"LHShowNav2ViewController" class:@"LHShowNav2ViewController"]];
@@ -29,12 +30,12 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    //[self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    //[self.navigationController setNavigationBarHidden:NO animated:NO];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

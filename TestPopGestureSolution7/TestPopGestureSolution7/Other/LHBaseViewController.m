@@ -18,7 +18,6 @@
     [super viewDidLoad];
     //self.automaticallyAdjustsScrollViewInsets = NO;
     self.view.backgroundColor = [UIColor whiteColor];
-    
     [self addBackItemWithAction:@selector(goBack)];
 }
 - (void)addBackItemWithAction:(SEL)action {
@@ -33,7 +32,10 @@
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -1,5 +1,5 @@
 //
-//  LHBaseViewController.h
+//  LHNavigationController.h
 //  TestPopGestureSolution1
 //
 //  Created by liuhuan on 2017/8/22.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CellModel.h"
-@interface LHBaseViewController : UIViewController
-@property (nonatomic,assign) BOOL lh_hidNav;
+
+@interface LHNavigationController : UINavigationController
+
 @end
