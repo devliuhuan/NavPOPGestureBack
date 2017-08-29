@@ -14,30 +14,37 @@
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        Method viewWillAppear_originalMethod = class_getInstanceMethod(self, @selector(viewWillAppear:));
-        Method viewWillAppear_swizzledMethod = class_getInstanceMethod(self, @selector(lh_viewWillAppear:));
-        method_exchangeImplementations(viewWillAppear_originalMethod, viewWillAppear_swizzledMethod);
         
-        Method viewDidLoad_originalMethod = class_getInstanceMethod(self, @selector(viewDidLoad));
-        Method viewDidLoad_swizzledMethod = class_getInstanceMethod(self, @selector(lh_viewDidLoad));
-        method_exchangeImplementations(viewDidLoad_originalMethod, viewDidLoad_swizzledMethod);
+        [self swizzleBarHidden];
+        [self swizzlePopGesture];
     });
 }
-
-- (void)lh_viewWillAppear:(BOOL)animated
+#pragma mark - ******** 支持手势pop侧滑
++ (void)swizzlePopGesture
 {
-    [self lh_viewWillAppear:animated];
-    
-    [self.navigationController setNavigationBarHidden:self.lh_hideNavBar animated:animated];
+    Method viewDidLoad_originalMethod = class_getInstanceMethod(self, @selector(viewDidLoad));
+    Method viewDidLoad_swizzledMethod = class_getInstanceMethod(self, @selector(lh_viewDidLoad));
+    method_exchangeImplementations(viewDidLoad_originalMethod, viewDidLoad_swizzledMethod);
 }
 - (void)lh_viewDidLoad
 {
     [self lh_viewDidLoad];
     self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
 }
+#pragma mark - ******** 支持navigationBar的隐藏现实不突兀
++ (void)swizzleBarHidden
+{
+    Method viewWillAppear_originalMethod = class_getInstanceMethod(self, @selector(viewWillAppear:));
+    Method viewWillAppear_swizzledMethod = class_getInstanceMethod(self, @selector(lh_viewWillAppear:));
+    method_exchangeImplementations(viewWillAppear_originalMethod, viewWillAppear_swizzledMethod);
+}
+- (void)lh_viewWillAppear:(BOOL)animated
+{
+    [self lh_viewWillAppear:animated];
+    
+    [self.navigationController setNavigationBarHidden:self.lh_hideNavBar animated:animated];
+}
 
-
-#pragma mark  ******** getter && setter
 - (void)setLh_hideNavBar:(BOOL)lh_hideNavBar
 {
     objc_setAssociatedObject(self, @selector(lh_hideNavBar), @(lh_hideNavBar), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
