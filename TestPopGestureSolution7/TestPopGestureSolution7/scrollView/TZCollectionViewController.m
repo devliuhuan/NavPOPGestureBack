@@ -26,7 +26,7 @@
     [self.view addSubview:collectionView];
     
     // collectionView需要支持侧滑返回
-    //[self tz_addPopGestureToView:collectionView];
+    [self lh_addPopGestureToView:collectionView];
 }
 
 @end

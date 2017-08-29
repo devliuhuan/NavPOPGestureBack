@@ -91,7 +91,7 @@
     [self.view addSubview:_scrollView];
     
     // scrollView需要支持侧滑返回
-    //[self tz_addPopGestureToView:_scrollView];
+    [self lh_addPopGestureToView:_scrollView];
     
     UILabel *titleLabel = [[UILabel alloc] init];
     titleLabel.frame = CGRectMake(0, 0, _scrollView.frame.size.width, _scrollView.frame.size.height);

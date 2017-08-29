@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (LHNavigationGesture)
+@interface UIViewController (LHNavigationGesture) <UIGestureRecognizerDelegate>
+/// 是否隐藏导航栏
 @property (nonatomic,assign) BOOL lh_hideNavBar;
+/// 给view添加侧滑返回效果
+- (void)lh_addPopGestureToView:(UIView *)view;
+
 @end

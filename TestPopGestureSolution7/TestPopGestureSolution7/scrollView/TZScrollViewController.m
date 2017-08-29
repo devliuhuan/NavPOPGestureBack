@@ -26,7 +26,7 @@
     [self.view addSubview:scrollView];
     
     // scrollView需要支持侧滑返回
-    //[self tz_addPopGestureToView:scrollView];
+    [self lh_addPopGestureToView:scrollView];
     
     // 禁止该页面侧滑返回
     // self.tz_interactivePopDisabled = YES;

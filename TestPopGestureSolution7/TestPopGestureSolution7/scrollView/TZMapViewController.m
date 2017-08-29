@@ -25,7 +25,7 @@
     [self.view addSubview:mapView];
     
     // mapView需要支持侧滑返回
-    //[self tz_addPopGestureToView:mapView];
+    [self lh_addPopGestureToView:mapView];
 }
 
 @end
